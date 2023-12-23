@@ -1,0 +1,1 @@
+This task is about promise-using fetch(display all countries name and weather climate)
