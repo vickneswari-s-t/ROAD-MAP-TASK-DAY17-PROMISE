@@ -22,8 +22,8 @@ const handleWeatherButtonClick = (lat, lon, weatherContainer) => {
     });
 };
 
-const result = fetch(url);
-result.then((data) => data.json()).then((ele) => {
+const result1 = fetch(url);
+result1.then((data1) => data1.json()).then((ele) => {
   for (let i = 0; i < ele.length; i++) {
     const card = document.createElement("div");
     card.className = "col";
